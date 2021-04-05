@@ -168,8 +168,57 @@
   content: "\e91f";
 }
 
+.first-color {
+  color: #ee3364;
+}
+
+.second-color {
+  color: #00bec5;
+}
+
+.btn {
+  color: #fff;
+  background-color: #ee3364;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 1;
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  padding: 19px 30px;
+  cursor: pointer;
+  -webkit-transition-timing-function: ease-in-out;
+  transition-timing-function: ease-in-out;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: all;
+  transition-property: all;
+  text-align: center;
+  text-decoration: none;
+  letter-spacing: 0.075em;
+  text-transform: uppercase;
+  border: none;
+  outline: 0;
+  border-radius: unset;
+}
+
 #navbar {
   padding: 15px 10%;
+}
+
+.h3,
+h3 {
+  font-size: 38px;
+  line-height: 1.32;
+}
+
+.navbar-light .navbar-toggler-icon {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHdpZHRoPSczMCcgaGVpZ2h0PSczMCcgdmlld0JveD0nMCAwIDMwIDMwJz48cGF0aCBzdHJva2U9J3JnYmEoMCwgMCwgMCknIHN0cm9rZS1saW5lY2FwPSdyb3VuZCcgc3Ryb2tlLW1pdGVybGltaXQ9JzEwJyBzdHJva2Utd2lkdGg9JzInIGQ9J000IDdoMjJNNCAxNWgyMk00IDIzaDIyJy8+PC9zdmc+);
+}
+
+.navbar-light .navbar-toggler {
+  color: rgb(0 0 0);
+  border-color: rgb(0 0 0 / 0%);
 }
 
 .navbar-brand img {
@@ -222,8 +271,8 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  padding: 15% 30%;
   max-height: 680px;
+  min-height: 80vh;
 }
 
 .slide h1 {
@@ -232,9 +281,58 @@
   font-weight: 700;
 }
 
-.slide p {
+#about h3 {
+  font-weight: 700;
+  letter-spacing: 0.01em;
+}
 
-  margin-top: 100 michele tornello!!!!!!!!!!!!!!!;
+#about img {
+  -o-object-fit: cover;
+  object-fit: cover;
+}
 
+#about .icon {
+  margin-bottom: 20px;
+}
+#about .icon i {
+  font-size: 70px;
+}
+#about h4 {
+  font-size: 24px;
+  font-weight: 700;
+  margin: 15px 0;
+  padding: 0;
+  letter-spacing: 0.01em;
+}
 
+#about h4 a {
+  background: -webkit-gradient(
+    linear,
+    left bottom,
+    left top,
+    color-stop(5%, transparent),
+    color-stop(5%, #fdf4b4),
+    color-stop(37%, #fdf4b4),
+    color-stop(37%, transparent)
+  );
+  background: -webkit-linear-gradient(
+    bottom,
+    transparent 5%,
+    #fdf4b4 5%,
+    #fdf4b4 37%,
+    transparent 37%
+  );
+  background: linear-gradient(
+    to top,
+    transparent 5%,
+    #fdf4b4 5%,
+    #fdf4b4 37%,
+    transparent 37%
+  );
+  color: black;
+}
+
+#about p {
+  font-size: 16px;
+  margin: 12px 0 0;
 }
